@@ -37,15 +37,10 @@ namespace CsvReaderDemo2
 
     public class RocketLaunch
     {  
-        [Index(0)] 
         public int FlightNumber { get; set; }
-        [Index(1)] 
         public string MissionName { get; set; }
-        [Index(2)] 
         public DateTime LaunchDate { get; set; }
-        [Index(4)] 
         public bool Succeeded { get; set; }
-        [Index(3)] 
         public bool DidLand { get; set; }
     }
 
